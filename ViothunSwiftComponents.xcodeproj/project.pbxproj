@@ -35,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F3B72E82A3EBC0E0091F37B /* ViothunSwiftUIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViothunSwiftUIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3B72E82A3EBC0E0091F37B /* ViothunSwiftComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViothunSwiftComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3B72EB2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsApp.swift; sourceTree = "<group>"; };
 		2F3B72ED2A3EBC0E0091F37B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F3B72EF2A3EBC0F0091F37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F3B72F22A3EBC0F0091F37B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2F3B72F82A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViothunSwiftUIComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3B72F82A3EBC0F0091F37B /* ViothunSwiftComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViothunSwiftComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3B72FC2A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsTests.swift; sourceTree = "<group>"; };
-		2F3B73022A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViothunSwiftUIComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3B73022A3EBC0F0091F37B /* ViothunSwiftComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViothunSwiftComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3B73062A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsUITests.swift; sourceTree = "<group>"; };
 		2F3B73082A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2F3B73172A3EBC830091F37B /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
@@ -86,9 +86,9 @@
 		2F3B72E92A3EBC0E0091F37B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F3B72E82A3EBC0E0091F37B /* ViothunSwiftUIComponents.app */,
-				2F3B72F82A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests.xctest */,
-				2F3B73022A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.xctest */,
+				2F3B72E82A3EBC0E0091F37B /* ViothunSwiftComponents.app */,
+				2F3B72F82A3EBC0F0091F37B /* ViothunSwiftComponentsTests.xctest */,
+				2F3B73022A3EBC0F0091F37B /* ViothunSwiftComponentsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,8 +96,8 @@
 		2F3B72EA2A3EBC0E0091F37B /* ViothunSwiftUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				2F3B73192A3EBE790091F37B /* Commons */,
 				2F3B73162A3EBC450091F37B /* Combine */,
-				2F3B73152A3EBC320091F37B /* Drawing */,
 				2F3B72EB2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift */,
 				2F3B72ED2A3EBC0E0091F37B /* ContentView.swift */,
 				2F3B72EF2A3EBC0F0091F37B /* Assets.xcassets */,
@@ -146,12 +146,20 @@
 			path = Combine;
 			sourceTree = "<group>";
 		};
+		2F3B73192A3EBE790091F37B /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B73152A3EBC320091F37B /* Drawing */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2F3B72E72A3EBC0E0091F37B /* ViothunSwiftUIComponents */ = {
+		2F3B72E72A3EBC0E0091F37B /* ViothunSwiftComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F3B730C2A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftUIComponents" */;
+			buildConfigurationList = 2F3B730C2A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftComponents" */;
 			buildPhases = (
 				2F3B72E42A3EBC0E0091F37B /* Sources */,
 				2F3B72E52A3EBC0E0091F37B /* Frameworks */,
@@ -161,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = ViothunSwiftUIComponents;
+			name = ViothunSwiftComponents;
 			productName = ViothunSwiftUIComponents;
-			productReference = 2F3B72E82A3EBC0E0091F37B /* ViothunSwiftUIComponents.app */;
+			productReference = 2F3B72E82A3EBC0E0091F37B /* ViothunSwiftComponents.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2F3B72F72A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests */ = {
+		2F3B72F72A3EBC0F0091F37B /* ViothunSwiftComponentsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F3B730F2A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftUIComponentsTests" */;
+			buildConfigurationList = 2F3B730F2A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftComponentsTests" */;
 			buildPhases = (
 				2F3B72F42A3EBC0F0091F37B /* Sources */,
 				2F3B72F52A3EBC0F0091F37B /* Frameworks */,
@@ -179,14 +187,14 @@
 			dependencies = (
 				2F3B72FA2A3EBC0F0091F37B /* PBXTargetDependency */,
 			);
-			name = ViothunSwiftUIComponentsTests;
+			name = ViothunSwiftComponentsTests;
 			productName = ViothunSwiftUIComponentsTests;
-			productReference = 2F3B72F82A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests.xctest */;
+			productReference = 2F3B72F82A3EBC0F0091F37B /* ViothunSwiftComponentsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2F3B73012A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests */ = {
+		2F3B73012A3EBC0F0091F37B /* ViothunSwiftComponentsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F3B73122A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftUIComponentsUITests" */;
+			buildConfigurationList = 2F3B73122A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftComponentsUITests" */;
 			buildPhases = (
 				2F3B72FE2A3EBC0F0091F37B /* Sources */,
 				2F3B72FF2A3EBC0F0091F37B /* Frameworks */,
@@ -197,9 +205,9 @@
 			dependencies = (
 				2F3B73042A3EBC0F0091F37B /* PBXTargetDependency */,
 			);
-			name = ViothunSwiftUIComponentsUITests;
+			name = ViothunSwiftComponentsUITests;
 			productName = ViothunSwiftUIComponentsUITests;
-			productReference = 2F3B73022A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.xctest */;
+			productReference = 2F3B73022A3EBC0F0091F37B /* ViothunSwiftComponentsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2F3B72E32A3EBC0E0091F37B /* Build configuration list for PBXProject "ViothunSwiftUIComponents" */;
+			buildConfigurationList = 2F3B72E32A3EBC0E0091F37B /* Build configuration list for PBXProject "ViothunSwiftComponents" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -238,9 +246,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2F3B72E72A3EBC0E0091F37B /* ViothunSwiftUIComponents */,
-				2F3B72F72A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests */,
-				2F3B73012A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests */,
+				2F3B72E72A3EBC0E0091F37B /* ViothunSwiftComponents */,
+				2F3B72F72A3EBC0F0091F37B /* ViothunSwiftComponentsTests */,
+				2F3B73012A3EBC0F0091F37B /* ViothunSwiftComponentsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		2F3B72FA2A3EBC0F0091F37B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F3B72E72A3EBC0E0091F37B /* ViothunSwiftUIComponents */;
+			target = 2F3B72E72A3EBC0E0091F37B /* ViothunSwiftComponents */;
 			targetProxy = 2F3B72F92A3EBC0F0091F37B /* PBXContainerItemProxy */;
 		};
 		2F3B73042A3EBC0F0091F37B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2F3B72E72A3EBC0E0091F37B /* ViothunSwiftUIComponents */;
+			target = 2F3B72E72A3EBC0E0091F37B /* ViothunSwiftComponents */;
 			targetProxy = 2F3B73032A3EBC0F0091F37B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -503,7 +511,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViothunSwiftUIComponents.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViothunSwiftUIComponents";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViothunSwiftComponents.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViothunSwiftComponents";
 			};
 			name = Debug;
 		};
@@ -523,7 +531,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViothunSwiftUIComponents.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViothunSwiftUIComponents";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViothunSwiftComponents.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViothunSwiftComponents";
 			};
 			name = Release;
 		};
@@ -566,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2F3B72E32A3EBC0E0091F37B /* Build configuration list for PBXProject "ViothunSwiftUIComponents" */ = {
+		2F3B72E32A3EBC0E0091F37B /* Build configuration list for PBXProject "ViothunSwiftComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F3B730A2A3EBC0F0091F37B /* Debug */,
@@ -575,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F3B730C2A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftUIComponents" */ = {
+		2F3B730C2A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F3B730D2A3EBC0F0091F37B /* Debug */,
@@ -584,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F3B730F2A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftUIComponentsTests" */ = {
+		2F3B730F2A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftComponentsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F3B73102A3EBC0F0091F37B /* Debug */,
@@ -593,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F3B73122A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftUIComponentsUITests" */ = {
+		2F3B73122A3EBC0F0091F37B /* Build configuration list for PBXNativeTarget "ViothunSwiftComponentsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F3B73132A3EBC0F0091F37B /* Debug */,
