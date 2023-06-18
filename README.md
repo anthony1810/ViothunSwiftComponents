@@ -3,7 +3,7 @@ A project contains a convenient pieces of code that can be reused to solve real-
 
 ## Commons
 ### Drawing
-1. [QRCodeGenerator](/ViothunSwiftComponents/Commons/Drawing) - Drawing QR Image from an input String
+1. [QRCodeGenerator](/ViothunSwiftComponents/Commons/Drawing/QRCodeGenerator.swift) - Drawing QR Image from an input String
 
 ## Combine
 1. [Deboucer](/ViothunSwiftComponents/Combine/Debouncer.swift) - Delay receiving new changes from upstream publishers to gain performance
