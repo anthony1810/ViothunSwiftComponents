@@ -14,6 +14,7 @@
 		2F3B72FD2A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B72FC2A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests.swift */; };
 		2F3B73072A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B73062A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.swift */; };
 		2F3B73092A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B73082A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift */; };
+		2F3B73182A3EBC830091F37B /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B73172A3EBC830091F37B /* QRCodeGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2F3B73022A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViothunSwiftUIComponentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3B73062A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsUITests.swift; sourceTree = "<group>"; };
 		2F3B73082A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F3B73172A3EBC830091F37B /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,8 @@
 		2F3B72EA2A3EBC0E0091F37B /* ViothunSwiftUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				2F3B73162A3EBC450091F37B /* Combine */,
+				2F3B73152A3EBC320091F37B /* Drawing */,
 				2F3B72EB2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift */,
 				2F3B72ED2A3EBC0E0091F37B /* ContentView.swift */,
 				2F3B72EF2A3EBC0F0091F37B /* Assets.xcassets */,
@@ -125,6 +129,21 @@
 				2F3B73082A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift */,
 			);
 			path = ViothunSwiftUIComponentsUITests;
+			sourceTree = "<group>";
+		};
+		2F3B73152A3EBC320091F37B /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B73172A3EBC830091F37B /* QRCodeGenerator.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		2F3B73162A3EBC450091F37B /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F3B72EE2A3EBC0E0091F37B /* ContentView.swift in Sources */,
+				2F3B73182A3EBC830091F37B /* QRCodeGenerator.swift in Sources */,
 				2F3B72EC2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
