@@ -1,11 +1,11 @@
 # ViothunSwiftComponents
-A project contains convenient piece of codes that can be reused to solve real world applications written in Swift such as SwiftUI, Combine, and many more
+A project contains a convenient pieces of code that can be reused to solve real-world applications written in Swift with SwiftUI, Combine, and many more
 
 ## Commons
 ### Drawing
 1. [QRCodeGenerator](ViothunSwiftUIComponents/Commons/Drawing) - Drawing QR Image from an input String
 
-## Combine
+## Commons
 1. [Deboucer](ViothunSwiftUIComponents/Combine/Debouncer.swift) - Delay receiving new changes from upstream publishers to gain performance
 
 
