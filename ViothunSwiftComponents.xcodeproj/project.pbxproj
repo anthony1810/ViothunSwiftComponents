@@ -16,6 +16,7 @@
 		2F3B73092A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B73082A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift */; };
 		2F3B73182A3EBC830091F37B /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B73172A3EBC830091F37B /* QRCodeGenerator.swift */; };
 		2F3B731B2A3EC3910091F37B /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B731A2A3EC3910091F37B /* Debouncer.swift */; };
+		2F3B731F2A3EC62B0091F37B /* OnFirstAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B731E2A3EC62B0091F37B /* OnFirstAppearModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		2F3B73082A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2F3B73172A3EBC830091F37B /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
 		2F3B731A2A3EC3910091F37B /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		2F3B731E2A3EC62B0091F37B /* OnFirstAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnFirstAppearModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				2F3B73192A3EBE790091F37B /* Commons */,
 				2F3B73162A3EBC450091F37B /* Combine */,
+				2F3B731C2A3EC3E50091F37B /* SwiftUI */,
 				2F3B72EB2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift */,
 				2F3B72ED2A3EBC0E0091F37B /* ContentView.swift */,
 				2F3B72EF2A3EBC0F0091F37B /* Assets.xcassets */,
@@ -152,7 +155,6 @@
 		2F3B73192A3EBE790091F37B /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				2F3B731C2A3EC3E50091F37B /* SwiftUI */,
 				2F3B73152A3EBC320091F37B /* Drawing */,
 			);
 			path = Commons;
@@ -161,8 +163,17 @@
 		2F3B731C2A3EC3E50091F37B /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				2F3B731D2A3EC5FF0091F37B /* ViewModifiers */,
 			);
 			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		2F3B731D2A3EC5FF0091F37B /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				2F3B731E2A3EC62B0091F37B /* OnFirstAppearModifier.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3B731F2A3EC62B0091F37B /* OnFirstAppearModifier.swift in Sources */,
 				2F3B72EE2A3EBC0E0091F37B /* ContentView.swift in Sources */,
 				2F3B731B2A3EC3910091F37B /* Debouncer.swift in Sources */,
 				2F3B73182A3EBC830091F37B /* QRCodeGenerator.swift in Sources */,
