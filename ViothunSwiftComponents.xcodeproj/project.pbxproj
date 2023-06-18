@@ -15,6 +15,7 @@
 		2F3B73072A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B73062A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.swift */; };
 		2F3B73092A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B73082A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift */; };
 		2F3B73182A3EBC830091F37B /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B73172A3EBC830091F37B /* QRCodeGenerator.swift */; };
+		2F3B731B2A3EC3910091F37B /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B731A2A3EC3910091F37B /* Debouncer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2F3B73062A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsUITests.swift; sourceTree = "<group>"; };
 		2F3B73082A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2F3B73172A3EBC830091F37B /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
+		2F3B731A2A3EC3910091F37B /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		2F3B73162A3EBC450091F37B /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				2F3B731A2A3EC3910091F37B /* Debouncer.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -149,9 +152,17 @@
 		2F3B73192A3EBE790091F37B /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				2F3B731C2A3EC3E50091F37B /* SwiftUI */,
 				2F3B73152A3EBC320091F37B /* Drawing */,
 			);
 			path = Commons;
+			sourceTree = "<group>";
+		};
+		2F3B731C2A3EC3E50091F37B /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F3B72EE2A3EBC0E0091F37B /* ContentView.swift in Sources */,
+				2F3B731B2A3EC3910091F37B /* Debouncer.swift in Sources */,
 				2F3B73182A3EBC830091F37B /* QRCodeGenerator.swift in Sources */,
 				2F3B72EC2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift in Sources */,
 			);
