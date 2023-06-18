@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ViothunSwiftUIComponentsApp: App {
+struct ViothunSwiftComponentsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
