@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F3B72EC2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B72EB2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift */; };
+		2F3B72EC2A3EBC0E0091F37B /* ViothunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B72EB2A3EBC0E0091F37B /* ViothunApp.swift */; };
 		2F3B72EE2A3EBC0E0091F37B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3B72ED2A3EBC0E0091F37B /* ContentView.swift */; };
 		2F3B72F02A3EBC0F0091F37B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B72EF2A3EBC0F0091F37B /* Assets.xcassets */; };
 		2F3B72F32A3EBC0F0091F37B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3B72F22A3EBC0F0091F37B /* Preview Assets.xcassets */; };
@@ -41,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		2F3B72E82A3EBC0E0091F37B /* ViothunSwiftComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViothunSwiftComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F3B72EB2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunSwiftUIComponentsApp.swift; sourceTree = "<group>"; };
+		2F3B72EB2A3EBC0E0091F37B /* ViothunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViothunApp.swift; sourceTree = "<group>"; };
 		2F3B72ED2A3EBC0E0091F37B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F3B72EF2A3EBC0F0091F37B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F3B72F22A3EBC0F0091F37B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				2F3B73192A3EBE790091F37B /* Commons */,
 				2F3B73162A3EBC450091F37B /* Combine */,
 				2F3B731C2A3EC3E50091F37B /* SwiftUI */,
-				2F3B72EB2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift */,
+				2F3B72EB2A3EBC0E0091F37B /* ViothunApp.swift */,
 				2F3B72ED2A3EBC0E0091F37B /* ContentView.swift */,
 				2F3B72EF2A3EBC0F0091F37B /* Assets.xcassets */,
 				2F3B72F12A3EBC0F0091F37B /* Preview Content */,
@@ -320,7 +320,7 @@
 				2F3B72EE2A3EBC0E0091F37B /* ContentView.swift in Sources */,
 				2F3B731B2A3EC3910091F37B /* Debouncer.swift in Sources */,
 				2F3B73182A3EBC830091F37B /* QRCodeGenerator.swift in Sources */,
-				2F3B72EC2A3EBC0E0091F37B /* ViothunSwiftUIComponentsApp.swift in Sources */,
+				2F3B72EC2A3EBC0E0091F37B /* ViothunApp.swift in Sources */,
 				2F3B73232A3F000A0091F37B /* UIDevice+Extensions.swift in Sources */,
 				2F3B73252A3F003F0091F37B /* Color+Extension.swift in Sources */,
 			);
