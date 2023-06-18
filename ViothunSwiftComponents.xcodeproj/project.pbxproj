@@ -80,9 +80,9 @@
 		2F3B72DF2A3EBC0E0091F37B = {
 			isa = PBXGroup;
 			children = (
-				2F3B72EA2A3EBC0E0091F37B /* ViothunSwiftUIComponents */,
-				2F3B72FB2A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests */,
-				2F3B73052A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests */,
+				2F3B72EA2A3EBC0E0091F37B /* ViothunSwiftComponents */,
+				2F3B72FB2A3EBC0F0091F37B /* ViothunSwiftComponentsTests */,
+				2F3B73052A3EBC0F0091F37B /* ViothunSwiftComponentsUITests */,
 				2F3B72E92A3EBC0E0091F37B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,7 +97,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F3B72EA2A3EBC0E0091F37B /* ViothunSwiftUIComponents */ = {
+		2F3B72EA2A3EBC0E0091F37B /* ViothunSwiftComponents */ = {
 			isa = PBXGroup;
 			children = (
 				2F3B73192A3EBE790091F37B /* Commons */,
@@ -108,7 +108,7 @@
 				2F3B72EF2A3EBC0F0091F37B /* Assets.xcassets */,
 				2F3B72F12A3EBC0F0091F37B /* Preview Content */,
 			);
-			path = ViothunSwiftUIComponents;
+			path = ViothunSwiftComponents;
 			sourceTree = "<group>";
 		};
 		2F3B72F12A3EBC0F0091F37B /* Preview Content */ = {
@@ -119,21 +119,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		2F3B72FB2A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests */ = {
+		2F3B72FB2A3EBC0F0091F37B /* ViothunSwiftComponentsTests */ = {
 			isa = PBXGroup;
 			children = (
 				2F3B72FC2A3EBC0F0091F37B /* ViothunSwiftUIComponentsTests.swift */,
 			);
-			path = ViothunSwiftUIComponentsTests;
+			path = ViothunSwiftComponentsTests;
 			sourceTree = "<group>";
 		};
-		2F3B73052A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests */ = {
+		2F3B73052A3EBC0F0091F37B /* ViothunSwiftComponentsUITests */ = {
 			isa = PBXGroup;
 			children = (
 				2F3B73062A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITests.swift */,
 				2F3B73082A3EBC0F0091F37B /* ViothunSwiftUIComponentsUITestsLaunchTests.swift */,
 			);
-			path = ViothunSwiftUIComponentsUITests;
+			path = ViothunSwiftComponentsUITests;
 			sourceTree = "<group>";
 		};
 		2F3B73152A3EBC320091F37B /* Drawing */ = {
